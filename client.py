@@ -4,7 +4,7 @@ import sys
 
 # غير هالرابط بالرابط اللي طلعلك من Render
 # لازم تبدل https بـ wss
-SERVER_URL = "wss://your-app-name.onrender.com/ws"
+SERVER_URL = "wss://teagdi.onrender.com/ws"
 
 def on_message(ws, message):
     print(message, end='', flush=True)
